@@ -7,7 +7,7 @@ name: Release notes - append
 on:
   pull_request:
     types: [closed]
-    branches: [main]
+    branches: [NR-620061-rn-release-notes-automation]
 
 permissions:
   contents: read

@@ -7,7 +7,7 @@ name: Release notes - check
 on:
   pull_request:
     types: [opened, edited, reopened, synchronize, labeled, unlabeled]
-    branches: [main]
+    branches: [NR-620061-rn-release-notes-automation]
 
 permissions:
   contents: read
